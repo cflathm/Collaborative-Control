@@ -528,7 +528,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3, y: -267}
+  m_AnchoredPosition: {x: 3, y: -157}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1294776479
@@ -821,6 +821,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Track_3-01
       objectReference: {fileID: 0}
+    - target: {fileID: 6362490660822987738, guid: 39093decaa2626049a311fabb50a78de, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 6362490660822987739, guid: 39093decaa2626049a311fabb50a78de, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.01
@@ -902,6 +906,10 @@ PrefabInstance:
       propertyPath: control
       value: 
       objectReference: {fileID: 1294776479}
+    - target: {fileID: 8991980002147148667, guid: d5cc17aef05c3344ab238acf1620ec62, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8991980002331861190, guid: d5cc17aef05c3344ab238acf1620ec62, type: 3}
       propertyPath: m_Name
       value: Car
@@ -988,11 +996,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8991980003032254022, guid: d5cc17aef05c3344ab238acf1620ec62, type: 3}
       propertyPath: orthographic size
-      value: 9.519681
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8991980003032254137, guid: d5cc17aef05c3344ab238acf1620ec62, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 15
+      value: 12.1
       objectReference: {fileID: 0}
     - target: {fileID: 8991980003268020978, guid: d5cc17aef05c3344ab238acf1620ec62, type: 3}
       propertyPath: control
